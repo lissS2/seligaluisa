@@ -1,0 +1,53 @@
+header {
+    background: #E6E6FA;
+    padding: 20px 0;
+}
+
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+nav{
+  position: absolute;
+  top: 220px;
+  right: 0;
+  display: flex;
+}
+
+nav li{
+      margin: 0 0 0 15px;
+    display: flex;
+}
+
+nav a {
+  text-transform: uppercase;
+  color: #4B0082;
+  font-weight: bold;
+  font-size: 22px;
+  text-decoration: none;
+}
+#camomila{
+  padding: 200px;
+  width: 50%;
+}
+
+#hortela{
+  padding: 200px;
+  width: 50%;
+}
+
+#leite{
+  padding: 200px;
+  width:50%;
+}
+
+h2{
+  font-size: 40px;
+  text-align: center;
+}
+
+.produtos li {
+    display: inline-block;
+}
