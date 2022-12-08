@@ -17,7 +17,7 @@ nav{
 }
 
 nav li{
-      margin: 0 0 0 15px;
+    margin: 0 0 0 15px;
     display: flex;
 }
 
@@ -28,19 +28,23 @@ nav a {
   font-size: 22px;
   text-decoration: none;
 }
+
+h2{
+  text-transform: uppercase;
+  color: #4B0082;
+}
+
+p{
+   color: #483D8B;
+   text-transform: inherit;
+}
+
 #camomila{
-  padding: 200px;
-  width: 50%;
+  width: 605px;
 }
 
 #hortela{
-  padding: 200px;
-  width: 50%;
-}
-
-#leite{
-  padding: 200px;
-  width:50%;
+  width: 615px;
 }
 
 h2{
@@ -48,6 +52,23 @@ h2{
   text-align: center;
 }
 
+.produtos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
 .produtos li {
     display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    margin: 1.5% 0;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 5px solid #483D8B;
+    border-radius: 10px;
+}
+
+.produto-descricao {
+  font-size: 18px;
 }
