@@ -5,7 +5,7 @@ header {
 
 .caixa {
     position: relative;
-    width: 940px;
+    width: 1500px;
     margin: 0 auto;
 }
 
@@ -29,6 +29,11 @@ nav a {
   text-decoration: none;
 }
 
+nav a:hover {
+  color: #000000;
+  text-decoration: underline;
+}
+
 h2{
   text-transform: uppercase;
   color: #4B0082;
@@ -37,6 +42,7 @@ h2{
 p{
    color: #483D8B;
    text-transform: inherit;
+   text-align: left;
 }
 
 #camomila{
@@ -48,8 +54,7 @@ p{
 }
 
 h2{
-  font-size: 40px;
-  text-align: center;
+  font-size: 30px;
 }
 
 .produtos {
@@ -69,6 +74,37 @@ h2{
     border-radius: 10px;
 }
 
+.produtos li:hover {
+    border-color: #000000;
+}
+
+.produtos li:hover h2 {
+    font-size: 35px;
+}
+
+.produtos li:active {
+    border-color: #808080;
+}
+
 .produto-descricao {
   font-size: 18px;
+}
+
+.titulo li {
+    display: inline-block;
+}
+
+.logocha {
+  width: 350px;
+}
+
+footer {
+  text-align: center;
+  background: #E6E6FA;
+  padding: 45px 0;
+}
+
+.copyright {
+  font-size: 13px;
+  margin: 30px 0 0;
 }
